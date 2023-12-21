@@ -96,6 +96,14 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.menu-btn:hover,
+.menu-btn:focus {
+    background-color: #404BBF;
 }
 
 /* ---------------MENU------------ */
@@ -121,6 +129,10 @@ ol {
 
 /* ---------------MENU TEAM------------ */
 
+.menu-team {
+    background-color: #F4F4FD
+}
+
 .menu-team-subject {
     color: #2E2F42;
     text-align: center;
@@ -128,6 +140,10 @@ ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+
+.menu-team-list {
+    background-color: #FFFFFF;
 }
 
 .menu-team-title {
@@ -181,7 +197,7 @@ ol {
 
 .end-logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
